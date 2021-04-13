@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f392e32-9a38-4a05-bd8c-1fc14ae08e06" name="Default Changelist" comment="" />
+    <list default="true" id="7f392e32-9a38-4a05-bd8c-1fc14ae08e06" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleObject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleObject/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleObject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleObject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleObject/ConsoleObject.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleObject/ConsoleObject.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleObject/obj/Debug/ConsoleObject.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleObject/obj/Debug/ConsoleObject.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,15 +15,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConsoleObject/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding>
                 <marker date="1618311217368" expanded="true" signature="23:133" ph="{...}" />
                 <marker date="1618311217368" expanded="true" signature="52:131" ph="{...}" />
                 <marker date="1618311217368" expanded="true" signature="105:125" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ConsoleObject/ObjectExtensions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="69" column="62" lean-forward="true" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
+              <folding>
+                <marker date="1618314303452" expanded="true" signature="7:277" ph="..." />
+                <marker date="1618314303452" expanded="true" signature="303:3048" ph="{...}" />
+                <marker date="1618314303452" expanded="true" signature="346:3045" ph="{...}" />
+                <marker date="1618314303452" expanded="true" signature="432:730" ph="{...}" />
+                <marker date="1618314303452" expanded="true" signature="798:928" ph="{...}" />
+                <marker date="1618314303452" expanded="true" signature="1004:1374" ph="{...}" />
+                <marker date="1618314303452" expanded="true" signature="1177:1333" ph="{...}" />
+                <marker date="1618314303452" expanded="true" signature="1478:1554" ph="{...}" />
+                <marker date="1618314303452" expanded="true" signature="1645:2020" ph="{...}" />
+                <marker date="1618314303452" expanded="true" signature="1852:1936" ph="{...}" />
+                <marker date="1618314303452" expanded="true" signature="2097:2243" ph="{...}" />
+                <marker date="1618314303452" expanded="true" signature="2321:2467" ph="{...}" />
+                <marker date="1618314303452" expanded="true" signature="2537:3039" ph="{...}" />
+                <marker date="1618314303452" expanded="true" signature="2803:3029" ph="{...}" />
+                <marker date="1618314303452" expanded="true" signature="2903:2969" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -30,8 +61,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ConsoleObject/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleObject/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConsoleObject/ObjectExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConsoleObject/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ConsoleObject/ObjectExtensions.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -53,8 +92,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -67,23 +104,20 @@
               <item name="ConsoleObject" type="24d0babc:SolutionExplorerModelNode" />
               <item name="ConsoleObject" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ConsoleObject" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ConsoleObject" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ConsoleObject/ObjectExtensions.cs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -132,6 +166,7 @@
       <updated>1618311208888</updated>
       <workItem from="1618311212155" duration="634000" />
       <workItem from="1618312669256" duration="291000" />
+      <workItem from="1618313798956" duration="533000" />
     </task>
     <task id="LOCAL-00001" summary="First push">
       <created>1618312880253</created>
@@ -144,7 +179,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="925000" />
+    <option name="totallyTimeSpent" value="1458000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -157,8 +192,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25290164" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25595602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -168,10 +204,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info active="true" anchor="bottom" id="NuGet" order="7" visible="true" weight="0.3296582" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.3296582" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3296582" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
@@ -207,11 +243,35 @@
     <entry file="file://$PROJECT_DIR$/ConsoleObject/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
             <marker date="1618311217368" expanded="true" signature="23:133" ph="{...}" />
             <marker date="1618311217368" expanded="true" signature="52:131" ph="{...}" />
             <marker date="1618311217368" expanded="true" signature="105:125" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleObject/ObjectExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="69" column="62" lean-forward="true" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
+          <folding>
+            <marker date="1618314303452" expanded="true" signature="7:277" ph="..." />
+            <marker date="1618314303452" expanded="true" signature="303:3048" ph="{...}" />
+            <marker date="1618314303452" expanded="true" signature="346:3045" ph="{...}" />
+            <marker date="1618314303452" expanded="true" signature="432:730" ph="{...}" />
+            <marker date="1618314303452" expanded="true" signature="798:928" ph="{...}" />
+            <marker date="1618314303452" expanded="true" signature="1004:1374" ph="{...}" />
+            <marker date="1618314303452" expanded="true" signature="1177:1333" ph="{...}" />
+            <marker date="1618314303452" expanded="true" signature="1478:1554" ph="{...}" />
+            <marker date="1618314303452" expanded="true" signature="1645:2020" ph="{...}" />
+            <marker date="1618314303452" expanded="true" signature="1852:1936" ph="{...}" />
+            <marker date="1618314303452" expanded="true" signature="2097:2243" ph="{...}" />
+            <marker date="1618314303452" expanded="true" signature="2321:2467" ph="{...}" />
+            <marker date="1618314303452" expanded="true" signature="2537:3039" ph="{...}" />
+            <marker date="1618314303452" expanded="true" signature="2803:3029" ph="{...}" />
+            <marker date="1618314303452" expanded="true" signature="2903:2969" ph="{...}" />
           </folding>
         </state>
       </provider>
