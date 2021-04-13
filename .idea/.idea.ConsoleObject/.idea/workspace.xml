@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f392e32-9a38-4a05-bd8c-1fc14ae08e06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleObject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleObject/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleObject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleObject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleObject/ConsoleObject.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleObject/ConsoleObject.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleObject/obj/Debug/ConsoleObject.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleObject/obj/Debug/ConsoleObject.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleObject/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleObject/packages.config" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,54 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ConsoleObject/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding>
-                <marker date="1618311217368" expanded="true" signature="23:133" ph="{...}" />
-                <marker date="1618311217368" expanded="true" signature="52:131" ph="{...}" />
-                <marker date="1618311217368" expanded="true" signature="105:125" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ConsoleObject/ObjectExtensions.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="69" column="62" lean-forward="true" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
-              <folding>
-                <marker date="1618314303452" expanded="true" signature="7:277" ph="..." />
-                <marker date="1618314303452" expanded="true" signature="303:3048" ph="{...}" />
-                <marker date="1618314303452" expanded="true" signature="346:3045" ph="{...}" />
-                <marker date="1618314303452" expanded="true" signature="432:730" ph="{...}" />
-                <marker date="1618314303452" expanded="true" signature="798:928" ph="{...}" />
-                <marker date="1618314303452" expanded="true" signature="1004:1374" ph="{...}" />
-                <marker date="1618314303452" expanded="true" signature="1177:1333" ph="{...}" />
-                <marker date="1618314303452" expanded="true" signature="1478:1554" ph="{...}" />
-                <marker date="1618314303452" expanded="true" signature="1645:2020" ph="{...}" />
-                <marker date="1618314303452" expanded="true" signature="1852:1936" ph="{...}" />
-                <marker date="1618314303452" expanded="true" signature="2097:2243" ph="{...}" />
-                <marker date="1618314303452" expanded="true" signature="2321:2467" ph="{...}" />
-                <marker date="1618314303452" expanded="true" signature="2537:3039" ph="{...}" />
-                <marker date="1618314303452" expanded="true" signature="2803:3029" ph="{...}" />
-                <marker date="1618314303452" expanded="true" signature="2903:2969" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ConsoleObject/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConsoleObject/GrcEntite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleObject/ObjectExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleObject/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -69,6 +28,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ConsoleObject/ObjectExtensions.cs" />
+        <option value="$PROJECT_DIR$/ConsoleObject/GRC_ENTITE.cs" />
       </list>
     </option>
   </component>
@@ -117,7 +77,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ConsoleObject/ObjectExtensions.cs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ConsoleObject/GRC_ENTITE.cs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -166,7 +126,7 @@
       <updated>1618311208888</updated>
       <workItem from="1618311212155" duration="634000" />
       <workItem from="1618312669256" duration="291000" />
-      <workItem from="1618313798956" duration="533000" />
+      <workItem from="1618313798956" duration="1579000" />
     </task>
     <task id="LOCAL-00001" summary="First push">
       <created>1618312880253</created>
@@ -179,7 +139,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1458000" />
+    <option name="totallyTimeSpent" value="2504000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -192,9 +152,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25595602" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25595602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -204,7 +163,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="NuGet" order="7" visible="true" weight="0.3296582" />
+      <window_info anchor="bottom" id="NuGet" order="7" visible="true" weight="0.3296582" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3296582" />
@@ -215,9 +174,9 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="4" />
+      <window_info anchor="right" id="Errors In Solution" order="5" weight="0.3298717" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,22 +199,26 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ConsoleObject/Program.cs">
+    <entry file="file://$PROJECT_DIR$/ConsoleObject/GrcEntite.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <marker date="1618311217368" expanded="true" signature="23:133" ph="{...}" />
-            <marker date="1618311217368" expanded="true" signature="52:131" ph="{...}" />
-            <marker date="1618311217368" expanded="true" signature="105:125" ph="{...}" />
+            <marker date="1618315306415" expanded="false" signature="7:59" ph="..." />
+            <marker date="1618315306415" expanded="true" signature="84:6115" ph="{...}" />
+            <marker date="1618315306415" expanded="true" signature="114:250" ph="{...}" />
+            <marker date="1618315306415" expanded="true" signature="278:6113" ph="{...}" />
+            <marker date="1618315306415" expanded="true" signature="311:396" ph="{...}" />
+            <marker date="1618315306415" expanded="true" signature="439:582" ph="{...}" />
+            <marker date="1618315306415" expanded="true" signature="621:697" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ConsoleObject/ObjectExtensions.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="69" column="62" lean-forward="true" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
+        <state relative-caret-position="195">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
             <marker date="1618314303452" expanded="true" signature="7:277" ph="..." />
             <marker date="1618314303452" expanded="true" signature="303:3048" ph="{...}" />
@@ -272,6 +235,18 @@
             <marker date="1618314303452" expanded="true" signature="2537:3039" ph="{...}" />
             <marker date="1618314303452" expanded="true" signature="2803:3029" ph="{...}" />
             <marker date="1618314303452" expanded="true" signature="2903:2969" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleObject/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1618311217368" expanded="true" signature="23:133" ph="{...}" />
+            <marker date="1618311217368" expanded="true" signature="52:131" ph="{...}" />
+            <marker date="1618311217368" expanded="true" signature="105:125" ph="{...}" />
           </folding>
         </state>
       </provider>
