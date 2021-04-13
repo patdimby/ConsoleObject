@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Reflection;
 using System.Security;
 
 namespace ConsoleObject
@@ -16,18 +15,15 @@ namespace ConsoleObject
                 Type myType = myObject.GetType();
 
                 // Get the information related to all public member's of 'GrcEntite'.
-                var myMemberInfo = myType.GetMembers();
+                //var myMemberInfo = myType.GetMembers();
 
                 Console.WriteLine("\nThe members of class '{0}' are :\n", myType);
-                foreach (var t in myMemberInfo)
+                foreach (var t in myType.GetProperties())
                 {
                     // Display name and type of the concerned member.
                     // Console.WriteLine("'{0}' is a {1}", t.Name, t.MemberType);
-                    // Display only property.
-                    if (t.MemberType == MemberTypes.Property)
-                    {
-                        Console.WriteLine(t.Name);
-                    }
+                    // Display only property and .
+                    Console.WriteLine("'{0}' is a {1}", t.Name, t.PropertyType.Name);
                 }
             }
             catch (SecurityException e)

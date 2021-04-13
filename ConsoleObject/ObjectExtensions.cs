@@ -1,4 +1,4 @@
-﻿
+﻿using System;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Schema;
@@ -38,6 +38,7 @@ namespace ConsoleObject
                 object obj = propertyDescriptor.GetValue(dynObj);
                 dictionary.Add(propertyDescriptor.Name, obj);
             }
+
             return dictionary;
         }
 
@@ -49,13 +50,32 @@ namespace ConsoleObject
         private static dynamic DictionaryToObject(IDictionary<string, object> dictionary)
         {
             var expandoObj = new ExpandoObject();
-            var expandoObjCollection = (ICollection<KeyValuePair<string, object>>)expandoObj;
+            var expandoObjCollection = (ICollection<KeyValuePair<string, object>>) expandoObj;
             foreach (var keyValuePair in dictionary)
             {
                 expandoObjCollection.Add(keyValuePair);
             }
+
             dynamic eoDynamic = expandoObj;
             return eoDynamic;
+        }
+
+        public static Dictionary<string, object> ObjectToDictionary(this object obj)
+        {
+            // Get the type of 'obj'.
+            Type myType = obj.GetType();
+            // Initialize a dictionary.
+            Dictionary<string, object> result = new Dictionary<string, object>();
+            foreach (var t in myType.GetProperties())
+            {
+                var value = t.GetValue(obj, null);
+                if (value != null)
+                {
+                    result.Add(t.Name, value);
+                }
+            }
+
+            return result;
         }
 
         public static T ConvertToType<T>(this object value) where T : class
@@ -69,7 +89,7 @@ namespace ConsoleObject
             var jsonData = JsonConvert.SerializeObject(value);
             return JsonConvert.DeserializeObject<T>(jsonData);
         }
-       
+
 
         public static void CopyNotNulls<T>(T source, T dest)
         {
@@ -84,9 +104,9 @@ namespace ConsoleObject
                 {
                     continue;
                 }
+
                 property.SetValue(dest, val);
             }
         }
     }
-
 }
