@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 using System.Security;
 
 namespace ConsoleObject
@@ -21,7 +22,12 @@ namespace ConsoleObject
                 foreach (var t in myMemberInfo)
                 {
                     // Display name and type of the concerned member.
-                    Console.WriteLine("'{0}' is a {1}", t.Name, t.MemberType);
+                    // Console.WriteLine("'{0}' is a {1}", t.Name, t.MemberType);
+                    // Display only property.
+                    if (t.MemberType == MemberTypes.Property)
+                    {
+                        Console.WriteLine(t.Name);
+                    }
                 }
             }
             catch (SecurityException e)
