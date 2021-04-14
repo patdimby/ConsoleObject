@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7f392e32-9a38-4a05-bd8c-1fc14ae08e06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleObject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleObject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleObject/GrcEntite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleObject/GrcEntite.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleObject/ObjectExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleObject/ObjectExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleObject/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleObject/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleObject/bin/Debug/ConsoleObject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleObject/bin/Debug/ConsoleObject.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleObject/bin/Debug/ConsoleObject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleObject/bin/Debug/ConsoleObject.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleObject/obj/Debug/ConsoleObject.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleObject/obj/Debug/ConsoleObject.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleObject/obj/Debug/ConsoleObject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleObject/obj/Debug/ConsoleObject.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleObject/obj/Debug/ConsoleObject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleObject/obj/Debug/ConsoleObject.pdb" afterDir="false" />
     </list>
@@ -19,21 +21,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ConsoleObject/Program.cs">
+        <entry file="file://$PROJECT_DIR$/ConsoleObject/GrcEntite.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="17" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="26" selection-end-column="17" />
-              <folding>
-                <marker date="1618317692262" expanded="true" signature="6:36" ph="..." />
-                <marker date="1618317692262" expanded="true" signature="61:1111" ph="{...}" />
-                <marker date="1618317692262" expanded="true" signature="90:1109" ph="{...}" />
-                <marker date="1618317692262" expanded="true" signature="143:1103" ph="{...}" />
-                <marker date="1618317692262" expanded="true" signature="169:962" ph="{...}" />
-                <marker date="1618317692262" expanded="true" signature="354:481" ph="/* Get the information related to all public member's of 'GrcEntite'. ... */" />
-                <marker date="1618317692262" expanded="true" signature="623:948" ph="{...}" />
-                <marker date="1618317692262" expanded="true" signature="662:844" ph="/* Display name and type of the concerned member. ... */" />
-                <marker date="1618317692262" expanded="true" signature="1002:1093" ph="{...}" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -41,27 +32,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ConsoleObject/ObjectExtensions.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="285">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
-                <marker date="1618318927828" expanded="true" signature="6:290" ph="..." />
-                <marker date="1618318927828" expanded="true" signature="316:3643" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="359:3641" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="445:743" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="811:941" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="1017:1388" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="1190:1346" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="1492:1568" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="1659:2036" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="1867:1951" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="2122:2622" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="2387:2584" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="2487:2570" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="2699:2845" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="2923:3069" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="3132:3635" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="3398:3625" ph="{...}" />
-                <marker date="1618318927828" expanded="true" signature="3498:3564" ph="{...}" />
+                <marker date="1618383213153" expanded="true" signature="6:85" ph="..." />
+                <marker date="1618383213153" expanded="true" signature="110:2192" ph="{...}" />
+                <marker date="1618383213153" expanded="true" signature="153:2190" ph="{...}" />
+                <marker date="1618383213153" expanded="true" signature="229:1126" ph="{...}" />
+                <marker date="1618383213153" expanded="true" signature="320:372" ph="{...}" />
+                <marker date="1618383213153" expanded="true" signature="468:1116" ph="{...}" />
+                <marker date="1618383213153" expanded="true" signature="738:1102" ph="{...}" />
+                <marker date="1618383213153" expanded="true" signature="971:1064" ph="{...}" />
+                <marker date="1618383213153" expanded="true" signature="1182:1381" ph="{...}" />
+                <marker date="1618383213153" expanded="true" signature="1441:1533" ph="{...}" />
+                <marker date="1618383213153" expanded="true" signature="1620:2184" ph="{...}" />
+                <marker date="1618383213153" expanded="true" signature="1861:2146" ph="{...}" />
+                <marker date="1618383213153" expanded="true" signature="1977:2132" ph="{...}" />
+                <marker date="1618383213153" expanded="true" signature="2063:2114" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,7 +94,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -120,18 +106,13 @@
               <item name="ConsoleObject" type="24d0babc:SolutionExplorerModelNode" />
               <item name="ConsoleObject" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ConsoleObject" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ConsoleObject" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,6 +170,8 @@
       <workItem from="1618312669256" duration="291000" />
       <workItem from="1618313798956" duration="1579000" />
       <workItem from="1618315800930" duration="2887000" />
+      <workItem from="1618324247151" duration="1705000" />
+      <workItem from="1618382984853" duration="240000" />
     </task>
     <task id="LOCAL-00001" summary="First push">
       <created>1618312880253</created>
@@ -201,7 +184,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5391000" />
+    <option name="totallyTimeSpent" value="7336000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -216,10 +199,9 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25901037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2651191" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.3296582" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3296582" />
@@ -235,6 +217,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.3296582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -259,67 +242,56 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ConsoleObject/Program.cs</url>
+          <line>20</line>
+          <properties documentPath="$PROJECT_DIR$/ConsoleObject/Program.cs" initialLine="20">
+            <startOffsets>
+              <option value="496" />
+            </startOffsets>
+            <endOffsets>
+              <option value="520" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ConsoleObject/GrcEntite.cs">
+    <entry file="file://$PROJECT_DIR$/ConsoleObject/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1618315306415" expanded="false" signature="7:59" ph="..." />
-            <marker date="1618315306415" expanded="true" signature="84:6115" ph="{...}" />
-            <marker date="1618315306415" expanded="true" signature="114:250" ph="{...}" />
-            <marker date="1618315306415" expanded="true" signature="278:6113" ph="{...}" />
-            <marker date="1618315306415" expanded="true" signature="311:396" ph="{...}" />
-            <marker date="1618315306415" expanded="true" signature="439:582" ph="{...}" />
-            <marker date="1618315306415" expanded="true" signature="621:697" ph="{...}" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConsoleObject/Program.cs">
+    <entry file="file://$PROJECT_DIR$/ConsoleObject/GrcEntite.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <marker date="1618317692262" expanded="true" signature="6:36" ph="..." />
-            <marker date="1618317692262" expanded="true" signature="61:1111" ph="{...}" />
-            <marker date="1618317692262" expanded="true" signature="90:1109" ph="{...}" />
-            <marker date="1618317692262" expanded="true" signature="143:1103" ph="{...}" />
-            <marker date="1618317692262" expanded="true" signature="169:962" ph="{...}" />
-            <marker date="1618317692262" expanded="true" signature="354:481" ph="/* Get the information related to all public member's of 'GrcEntite'. ... */" />
-            <marker date="1618317692262" expanded="true" signature="623:948" ph="{...}" />
-            <marker date="1618317692262" expanded="true" signature="662:844" ph="/* Display name and type of the concerned member. ... */" />
-            <marker date="1618317692262" expanded="true" signature="1002:1093" ph="{...}" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ConsoleObject/ObjectExtensions.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="285">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
-            <marker date="1618318927828" expanded="true" signature="6:290" ph="..." />
-            <marker date="1618318927828" expanded="true" signature="316:3643" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="359:3641" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="445:743" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="811:941" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="1017:1388" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="1190:1346" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="1492:1568" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="1659:2036" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="1867:1951" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="2122:2622" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="2387:2584" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="2487:2570" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="2699:2845" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="2923:3069" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="3132:3635" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="3398:3625" ph="{...}" />
-            <marker date="1618318927828" expanded="true" signature="3498:3564" ph="{...}" />
+            <marker date="1618383213153" expanded="true" signature="6:85" ph="..." />
+            <marker date="1618383213153" expanded="true" signature="110:2192" ph="{...}" />
+            <marker date="1618383213153" expanded="true" signature="153:2190" ph="{...}" />
+            <marker date="1618383213153" expanded="true" signature="229:1126" ph="{...}" />
+            <marker date="1618383213153" expanded="true" signature="320:372" ph="{...}" />
+            <marker date="1618383213153" expanded="true" signature="468:1116" ph="{...}" />
+            <marker date="1618383213153" expanded="true" signature="738:1102" ph="{...}" />
+            <marker date="1618383213153" expanded="true" signature="971:1064" ph="{...}" />
+            <marker date="1618383213153" expanded="true" signature="1182:1381" ph="{...}" />
+            <marker date="1618383213153" expanded="true" signature="1441:1533" ph="{...}" />
+            <marker date="1618383213153" expanded="true" signature="1620:2184" ph="{...}" />
+            <marker date="1618383213153" expanded="true" signature="1861:2146" ph="{...}" />
+            <marker date="1618383213153" expanded="true" signature="1977:2132" ph="{...}" />
+            <marker date="1618383213153" expanded="true" signature="2063:2114" ph="{...}" />
           </folding>
         </state>
       </provider>

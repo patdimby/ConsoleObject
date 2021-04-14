@@ -7,29 +7,18 @@ namespace ConsoleObject
     {
         public static void Main(string[] args)
         {
-            try
+            GrcEntite source = new GrcEntite()
             {
-                GrcEntite myObject = new GrcEntite();
-
-                // Get the type of 'GrcEntite'.
-                Type myType = myObject.GetType();
-
-                // Get the information related to all public member's of 'GrcEntite'.
-                //var myMemberInfo = myType.GetMembers();
-
-                Console.WriteLine("\nThe members of class '{0}' are :\n", myType);
-                foreach (var t in myType.GetProperties())
-                {
-                    // Display name and type of the concerned member.
-                    // Console.WriteLine("'{0}' is a {1}", t.Name, t.MemberType);
-                    // Display only property and .
-                    Console.WriteLine("'{0}' is a {1}", t.Name, t.PropertyType.Name);
-                }
-            }
-            catch (SecurityException e)
+                Id = 1,
+                RAISON = "Nom"
+            };
+            
+            GrcEntite dest = new GrcEntite()
             {
-                Console.WriteLine("Exception : " + e.Message);
-            }
+               SIREN = "0000000",EMAIL = "mailto@mg.fr"
+            };
+            ObjectExtensions.BuiltInCast(dest, source);
+            Console.WriteLine(dest);
         }
     }
 }
